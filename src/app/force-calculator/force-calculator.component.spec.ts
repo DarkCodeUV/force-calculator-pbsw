@@ -46,6 +46,24 @@ it('should return "Syntaxis error" when "m" or "a" are not a number', () => {
 it('should return "Syntaxis error" when "m" or "a" are not a number', () => {
   expect(component.calcular(8,"B")).toContain("Syntaxis error");
   
+}); 
+
+
+it('should return 0 if is "m" and "a" are null', () => {
+  component.calcular(null,null);
+  expect(component.F).toBe(0);
 });
+
+it('should return 0 if is "m" a null', () => {
+  component.calcular(null,6);
+  expect(component.F).toBe(0);
+});
+
+it('should return 0 if is "a" a null', () => {
+  component.calcular(8,null);
+  expect(component.F).toBe(0);
+});
+
+
 
 });

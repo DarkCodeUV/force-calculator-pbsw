@@ -18,8 +18,11 @@ export class ForceCalculatorComponent implements OnInit {
 
   calcular(m,a){  
 
+    if(m === null && a === null) return this.F=0;
+    if(m === null || a === null) return this.F=0;
     if(typeof(m) !== "number" && typeof(a) !== "number") return "Syntaxis error";
     if((typeof(m) !== "number") || (typeof(a) !== "number")) return "Syntaxis error";
+
     return this.F=a*m;
 }
 
