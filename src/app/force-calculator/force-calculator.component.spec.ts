@@ -33,4 +33,19 @@ it('should return 53.55 when we insert 8.5, 6.3', () => {
   expect(component.F).toBe(53.55);
 });
 
+it('should return "Syntaxis error" when "m" and "a" are not a number', () => {
+  expect(component.calcular("A","B")).toContain("Syntaxis error");
+  
+});
+
+it('should return "Syntaxis error" when "m" or "a" are not a number', () => {
+  expect(component.calcular("A",6)).toContain("Syntaxis error");
+  
+});
+
+it('should return "Syntaxis error" when "m" or "a" are not a number', () => {
+  expect(component.calcular(8,"B")).toContain("Syntaxis error");
+  
+});
+
 });
