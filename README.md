@@ -29,3 +29,16 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Force calculator to second partial
 
 # v0.1 tag
+
+![Screenshot_20211103_153241](https://user-images.githubusercontent.com/59150442/140196011-a5290325-c838-46b4-9c66-add69e80d1a8.png)
+
+# Architecture
+
+![arquitectura-pruebas](https://user-images.githubusercontent.com/59150442/140195165-b98a8862-5f12-4583-942c-7e7561206169.png)
+
+# Documentation
+
+[documentacion.pdf](https://github.com/DarkCodeUV/force-calculator-pbsw/files/7470772/documentacion.pdf)
+
+
+[Documentation-Text-PDF.zip](https://github.com/DarkCodeUV/force-calculator-pbsw/files/7470781/Documentation-Text-PDF.zip)
