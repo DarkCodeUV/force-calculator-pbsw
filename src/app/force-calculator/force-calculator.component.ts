@@ -18,6 +18,7 @@ export class ForceCalculatorComponent implements OnInit {
   }
 
   force(){
+    
     let f= new force();
     this.result = f.calcular(this.operator1,this.operator2);
   }
