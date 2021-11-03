@@ -1,1 +1,37 @@
-<p>force-calculator works!</p>
+<div class="container d-flex align-items-center justify-content-center wh-100 shadow p-5">
+    <div class="card ">
+        <div class="card-header align-content-lg-start ">
+            <h2 class="title-section">Formula de fuerza</h2>
+        </div>
+
+        <form class="row g-3 p-5">
+            <div class="col-auto">
+                <input type="text" class="form-control operator1" placeholder="0" id="operator1" [(ngModel)]="operator1" name="operator1">
+            </div>
+            <div class="col-auto">
+                <h6>*</h6>
+            </div>
+            <div class="col-auto">
+                <input type="text" class="form-control operator2" placeholder="0" id="operator2" [(ngModel)]="operator2" name="operator2">
+            </div>
+            <div class="col-auto">
+                <h6>=</h6>
+            </div>
+            <div class="col-auto">
+                <label class="form-control result">{{ result }}</label>
+            </div>
+        </form>
+
+
+
+        <div class="p-3 text-center">
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                <div class="btn-group" role="group">
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary mb-3" (click)="force()">Calcular</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
