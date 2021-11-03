@@ -64,6 +64,20 @@ it('should return 0 if is "a" a null', () => {
   expect(component.F).toBe(0);
 });
 
+it('should return 0 if is "m" and "a" are undefined', () => {
+  component.calcular(undefined,undefined);
+  expect(component.F).toBe(0);
+});
+
+it('should return 0 if is "m" an undefined', () => {
+  component.calcular(undefined,6);
+  expect(component.F).toBe(0);
+});
+
+it('should return 0 if is "a" an undefined', () => {
+  component.calcular(8,undefined);
+  expect(component.F).toBe(0);
+});
 
 
 });
