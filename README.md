@@ -28,7 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # force-calculator-pbsw
 Force calculator to second partial
 
-# v0.1 tag
+# v0.2 tag
 
 ![Screenshot_20211103_153241](https://user-images.githubusercontent.com/59150442/140196011-a5290325-c838-46b4-9c66-add69e80d1a8.png)
 
