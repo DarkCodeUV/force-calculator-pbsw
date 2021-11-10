@@ -34,7 +34,7 @@ Force calculator to second partial
 
 # Architecture
 
-![arquitectura-pruebas](https://user-images.githubusercontent.com/59150442/140195165-b98a8862-5f12-4583-942c-7e7561206169.png)
+
 
 # Documentation
 
