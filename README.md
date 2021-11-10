@@ -28,4 +28,23 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # force-calculator-pbsw
 Force calculator to second partial
 
-# v0.1 tag
+# v0.2 tag
+
+# Landingpage
+
+![localhost_ladingpage](https://user-images.githubusercontent.com/59150442/141082824-aaf41b79-17be-4edd-89f4-272573fb9180.png)
+
+# Force Calculator
+
+![localhost_forcecalculator](https://user-images.githubusercontent.com/59150442/141083041-f7e232c7-791b-4a61-b741-7f0a39c2866e.png)
+
+# Architecture
+
+![Diagrama de tecnologias](https://user-images.githubusercontent.com/59150442/141081808-38a0eaf9-0f52-4ecd-a91d-852b3c982e46.png)
+
+# Documentation
+
+[documentacion.pdf](https://github.com/DarkCodeUV/force-calculator-pbsw/files/7470772/documentacion.pdf)
+
+
+[Documentation-Text-PDF.zip](https://github.com/DarkCodeUV/force-calculator-pbsw/files/7470781/Documentation-Text-PDF.zip)
