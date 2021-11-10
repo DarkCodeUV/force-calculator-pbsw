@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "force-calculator.component.scss"
+    ],
+    "names": [],
+    "file": "force-calculator.component.css"
+}

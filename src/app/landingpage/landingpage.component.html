@@ -1,0 +1,38 @@
+<div class="container d-flex align-items-center justify-content-center wh-100 shadow p-5">
+
+    <div class="col-4">
+        <div id="list-example" class="list-group">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">About me</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Force formula</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Explanation</a>
+        </div>
+    </div>
+    <div class="col-8">
+        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example p-5"
+            tabindex="0">
+            <h4 id="list-item-1">About me</h4>
+            <p> Full name: Leonardo Daniel Montiel Martinez<br>
+                School enrollment: S19004869<br>
+                Subject: Testing Software<br>
+            </p>
+            <h4 id="list-item-2">Force formula</h4>
+            <p>Newton's second law states that force is proportional to what is required for an object of constant mass
+                to change its velocity. This is equal to that object's mass multiplied by its acceleration. We use
+                Newtons, kilograms, and meters per second squared as our default units, although any appropriate units
+                for mass (grams, ounces, etc.) or velocity (miles per hour per second, millimeters per second2, etc.)
+                could certainly be used as well - the calculation is the same regardless.</p>
+            <h4 id="list-item-3">Explanation</h4>
+
+            <img src="../assets/images/example.png" class="img-fluid" alt="...">
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<div class="d-grid gap-2 col-6 mx-auto">    
+    <button class="btn btn-primary" type="button" [routerLink]= "['/forcecalculator']" >Go to force calculator </button> 
+
+</div>
+
+<br>
+<br>
