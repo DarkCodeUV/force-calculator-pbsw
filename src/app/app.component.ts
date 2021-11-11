@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { ForceCalculatorComponent } from './force-calculator/force-calculator.component';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
