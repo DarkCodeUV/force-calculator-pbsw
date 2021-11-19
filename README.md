@@ -48,3 +48,16 @@ Force calculator to second partial
 
 
 [Documentation-Text-PDF.zip](https://github.com/DarkCodeUV/force-calculator-pbsw/files/7470781/Documentation-Text-PDF.zip)
+
+
+# Resultado del coverage
+
+
+![coverage](https://user-images.githubusercontent.com/59150442/142670188-33754def-2c75-4aca-98a8-aa563b00c693.png)
+
+
+# Git branch
+
+![gitbranch](https://user-images.githubusercontent.com/59150442/142667973-1f941ff6-85e7-49ac-b267-5bbfd6803673.png)
+
+
